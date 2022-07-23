@@ -18,7 +18,7 @@ public class emailvalidation {
 	  HashSet<String> set = new HashSet<String>(list);
 	  if (set.contains(s))
 	  {
-	    System.out.println("Email is found " );
+	    System.out.println("Email is found ");
 	  }
 	  else
 	  {
