@@ -96,7 +96,6 @@ public class Main {
         System.out.println("Enter the expense you need to search:\t");
         Scanner scanner = new Scanner(System.in);
 		int expense = scanner.nextInt();
-
         int result = Collections.binarySearch(arrayList, expense );
         System.out.println("search result = " + result);
     }

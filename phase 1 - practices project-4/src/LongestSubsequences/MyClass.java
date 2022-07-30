@@ -19,7 +19,7 @@ public class MyClass {
 	}
 
 	public static void main(String args[]) {
-		int a[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
+		int a[] = {3, 10, 2, 1, 20};
 		int arr = a.length;
 		System.out.println("The length of the longest increasing subsequence is " + method(a, arr));
 	}

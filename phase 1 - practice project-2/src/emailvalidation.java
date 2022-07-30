@@ -13,8 +13,6 @@ public class emailvalidation {
 	  list.add("rifan@gmail.com");
 	  list.add("ajee@gmail.com");
 	  list.add("welcome@gmail.com");
-
-	  //Load the list into a hashSet
 	  HashSet<String> set = new HashSet<String>(list);
 	  if (set.contains(s))
 	  {
