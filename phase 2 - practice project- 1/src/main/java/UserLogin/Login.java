@@ -18,10 +18,12 @@ public class Login extends GenericServlet {
 		password = req.getParameter("password");
 
 		PrintWriter out = res.getWriter();
-		if((userid.equals("admin")) && (password.equals("admin"))){
+		if((userid.equals("baaji")) && (password.equals("pass"))){
 			out.println("Login successfully");
+			out.println("<h4><a href=\"Welcome.html\">Home</a></h4>");
 		} else {
 			out.println("Invalid User Check your Userid and Password");
+			out.println("<h4><a href=\"Login.html\">Go back</a></h4>");
 		}
 
 	}
