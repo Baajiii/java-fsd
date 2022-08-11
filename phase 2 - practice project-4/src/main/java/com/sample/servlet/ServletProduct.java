@@ -45,7 +45,7 @@ public class ServletProduct extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("doGet");
 		String id = request.getParameter("id");
-		try(PreparedStatement statement = connection.prepareStatement("select * from product where productID=?");){
+		try(PreparedStatement statement = connection.prepareStatement("select * from product where id=?");){
 			statement.setString(1, id);
 			ResultSet results = statement.executeQuery();
 			statement.getResultSet();
