@@ -67,7 +67,7 @@ public class MainController {
 	}
 
 	@RequestMapping(value = "/participants/result", method = RequestMethod.GET)
-	public List<Result> submit(Result res) {
+	public List<Result> ViewResult(Result res) {
 
 		return service.getTopScore();
 	}
