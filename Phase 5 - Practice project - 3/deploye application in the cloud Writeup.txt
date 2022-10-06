@@ -1,0 +1,11 @@
+Step 1:Create a instance, connect to VM  and install the Jenkins.
+Step 2:Get the password in the instance using command which given the Jenkins login page, and go to dashboard and add new item.
+Step 3:Create a new user in AWS account and get the user credential
+Step 4:Go to the Jenkins dashboard => manage Jenkins => configure system and Add amazon s3 profile with user credential.
+Step 5:Create a repository in github and commit the code and add the github link in the Jenkins while creating new item.
+Step 6:Create a S3 bugket in the AWS account.
+Step 7:After add the git hub link in the Jenkins, configure the Jenkins  and select the new item was created and build it.
+Step 8:Create another instance to deploy the application in the cloud and connect to the VM and install the java 17 and install maven.
+Step 9:After that edit the inbound in the instance and add the port 8080.
+Step 10:Create app in the VM and download the jar file from the S3 bugket and run the jar using commands . 
+Step 11:Copy the public ip address from the instance and paste in the browser url and add 8080 to the url , output will be display.
