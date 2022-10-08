@@ -1,0 +1,9 @@
+Step 1: Create a multiple instance.
+Step 2: Edit the security group by edit the inbound rule and add all traffic type.
+Step 3: With the help of putty connect the instances.
+Step 4: Write command on master node to connect other nodes (docker service create --name myapp1 --replicas 5 -p 80:80 abdulbasithn/mywebsiteimage
+Step 5: The master node will produce token , run the tokens in the other nodes to connect them.
+Step 6: Check the master node about the status of other node.
+Step 7: Create a service and add the image in container .
+Step 8: Check the service status about running.
+Step 9: Run the ip address in the url.
